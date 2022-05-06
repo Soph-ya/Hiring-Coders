@@ -1,0 +1,18 @@
+/* tags */
+body {
+    text-align: center;
+}
+/* IDs */
+#Login {
+    background-color:bisque;
+    color:black
+}
+
+#Registre {
+    background-color: bisque;
+    color:black
+}
+/* classes */
+.copy {
+    font-size: 8px;
+}
