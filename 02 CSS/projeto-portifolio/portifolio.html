@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,500;1,500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a0404b6362.js" crossorigin="anonymous"></script>
+    <title>Sophia Freitas</title>
+</head>
+<body>
+
+    <header>
+        
+<div>
+    <img src="pictures/logo_transparent.png" width="06%" alt="logo sophia freitas">
+</div>
+
+<ul>
+    <li>
+        <a target="_blank" href="https://github.com/Soph-ya">Github</a>
+    </li>
+
+    <li>
+        <a target="_blank" href="mailto:freitas.sophia.job@gmail.com">Email</a></a>
+    </li> 
+
+    <li>
+        <a target="_blank" href="https://www.linkedin.com/in/sophia-freitas-011438209">LinKedin</a>
+    </li>
+</ul>
+    </header>
+<main>
+    <section class="conteiner">
+<div class:name>
+    <h1>Sophia Freitas</h1>
+    <h5>Frontend</h5>
+</div>
+
+<div onclick="displayAbout()" id="arrow">
+    <i id="animation" class="fa-solid fa-sort-down"></i>
+</div>
+
+<div style="display: none" id="about">
+   <p>
+       Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam eius harum repellendus voluptates quibusdam soluta mollitia vitae, modi neque doloribus, distinctio perspiciatis tenetur, nesciunt commodi ab ex quo sunt quasi!
+    </p>
+</div>
+
+<div class="form">
+    <div>
+        <p>deixe seu contato!</p>
+    </div>
+    
+<form action="">
+<input type="text" placeholder="seu melhor e-mail ;)"> </input>
+<button>enviar!</button>
+</div>
+
+    </section>
+</main>
+    <script>
+        function displayAbout () {
+            var arrow = document.getElementById('animation')
+            arrow.classList.toggle('rotate');
+            var display = document.getElementById('about')
+            display.classList.toggle('active');
+        }
+    </script>
+  
+</body>
+</html>

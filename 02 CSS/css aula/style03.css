@@ -1,0 +1,20 @@
+.navigation nav span {
+    color:chocolate;
+    text-decoration:underline;
+    cursor:pointer;
+    transition: 300ms;
+}
+
+nav span:hover {
+    text-decoration: underline;
+    color: black;
+    background-color: brown;
+  
+}
+
+#primeiro, .segundo, .navigation {
+    border: 5px solid black;
+    padding: 15px;
+    magin: 5px;
+
+}
